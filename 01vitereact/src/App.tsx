@@ -11,6 +11,7 @@ import {
 
 function App() {
  
+  const myname = "hello chai"
 
   return (
     <>
@@ -28,6 +29,8 @@ function App() {
         Your design system is ready. Start building your next component.
       </CardContent>
     </Card>
+    // this is an evaluated expression
+    <div>hi there ! {myname}</div>
        
     </>
   )
